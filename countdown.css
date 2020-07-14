@@ -9,7 +9,6 @@
     margin: 0;
     color: #fff;
     background: #333;
-    overflow: hidden;
   }
   
  
@@ -81,9 +80,9 @@
       font-size: 2rem!important;
     }
   
-    .countdown {
-      /* font-size: 30px; */
-    }
+    /* .countdown {
+      font-size: 30px;
+    } */
     .countdown span {
       
       font-size: 1rem!important;
