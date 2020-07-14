@@ -59,6 +59,7 @@
     color:  #F4F4F4;
     font-size: 3rem;
     z-index: 9!important;
+    opacity: 1!important;
   }
   
 
@@ -149,4 +150,10 @@
       font-size: 2rem;
     }
   }
- 
+  @media (max-width: 300px) {
+    .countdown div{
+      font-size: 5px!important;
+      padding: 5px!important;
+    }
+   
+    }
