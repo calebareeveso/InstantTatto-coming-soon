@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Wallpoet&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    color: #fff;
+    background: #333;
+    overflow: hidden;
+  }
+  
+ 
+  
+  .countdown {
+    font-size: 50px;
+    align-items: center!important;
+    display: flex!important;
+    justify-content: center!important;
+    text-align: center!important;
+  }
+  
+  .countdown div {
+    padding: 20px;
+    background: #000;
+    opacity: 0.7;
+    margin: 5px;
+   
+  } 
+  .num,.h1 {
+    font-family: 'Black Ops One', cursive!important;
+    color: #A81C1C!important;
+    /* font-family: 'Wallpoet', cursive!important; */
+  }
+   .countdown  {
+    padding: 20px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    background: #000;
+    opacity: 0.7;
+    margin: 5px;
+  }
+  
+  .countdown div:nth-of-type(2) {
+    border-left: 2px solid #fff;
+  } .countdown div:nth-of-type(3) {
+    border-left: 2px solid #fff;
+  }
+  .countdown div:nth-of-type(4) {
+    border-left: 2px solid #fff;
+  }
+  
+  .countdown span {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color:  #F4F4F4;
+    font-size: 3rem;
+    z-index: 9!important;
+  }
+  
+
+  @media (max-width: 100px) {
+   
+     h1 {
+      font-size: 2.4rem!important;
+    }
+  }
+  @media (max-width: 400px) {
+  
+    h1 {
+     font-size: 1.2rem!important;
+   }
+  }
+  @media (max-width: 700px) {
+  
+     h1 {
+      font-size: 2rem!important;
+    }
+  
+    .countdown {
+      /* font-size: 30px; */
+    }
+    .countdown span {
+      
+      font-size: 1rem!important;
+   
+    }
+
+  }
+  @media (min-width: 600px) {
+   
+    .countdown span {
+      
+      font-size: 3rem!important;;
+   
+    }
+
+  }
+  
+  
+  @media (max-height: 600px) {
+    img {
+      width: 20%;
+    }
+    
+    p {
+      display: none;
+    }
+  }
+  
+  @media (max-height: 400px) {
+     img {
+      padding-bottom: 30px;
+    }
+    
+    h1 {
+      display: none;
+    }
+  }
