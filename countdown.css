@@ -30,9 +30,9 @@
    
   } 
   .num,.h1 {
-    font-family: 'Black Ops One', cursive!important;
+    /* font-family: 'Black Ops One', cursive!important; */
     color: #A81C1C!important;
-    /* font-family: 'Wallpoet', cursive!important; */
+    font-family: 'Wallpoet', cursive!important;
   }
    .countdown  {
     padding: 20px;
@@ -41,6 +41,7 @@
     background: #000;
     opacity: 0.7;
     margin: 5px;
+    text-align: center!important;
   }
   
   .countdown div:nth-of-type(2) {
@@ -67,10 +68,10 @@
       font-size: 2.4rem!important;
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 2px) {
   
     h1 {
-     font-size: 1.2rem!important;
+     font-size: 2rem!important;
    }
   }
   @media (max-width: 700px) {
@@ -93,7 +94,7 @@
    
     .countdown span {
       
-      font-size: 3rem!important;;
+      font-size: 3rem;
    
     }
 
@@ -118,4 +119,34 @@
     h1 {
       display: none;
     }
+  
   }
+
+
+  @media (max-width: 400px) {
+    .countdown span {
+      font-size: 10px!important;
+    }
+    .countdown div{
+      font-size: 5px!important;
+      padding: 10px!important;
+    }
+   
+    h1 {
+      font-size: 1.3rem!important;;
+    }
+    p {
+      font-size: 10px!important;;
+    }
+  }
+  @media (max-width: 670px) {
+    .countdown span {
+      font-size: 2.6rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .countdown span {
+      font-size: 2rem;
+    }
+  }
+ 
