@@ -82,14 +82,14 @@ function showSlid() {
   setTimeout(showSlid, 6000); // Change image every 2 seconds
 }
 
-setTimeout(function myload() {
-  var logo = document.querySelector(".logo")
-  var pxy = document.querySelector(".pxy")
-  var bred = document.querySelector(".bred")
-  var opa = document.querySelector(".opa")
+// setTimeout(function myload() {
+//   var logo = document.querySelector(".logo")
+//   var pxy = document.querySelector(".pxy")
+//   var bred = document.querySelector(".bred")
+//   var opa = document.querySelector(".opa")
 
-  logo.style.opacity = "1";
-  opa.style.opacity = "1";
-  bred.style.opacity = "1";
-  pxy.style.opacity = "1";
-}, 1000);
+//   logo.style.opacity = "1";
+//   opa.style.opacity = "1";
+//   bred.style.opacity = "1";
+//   pxy.style.opacity = "1";
+// }, 1000);
