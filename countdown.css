@@ -10,7 +10,7 @@
     margin: 0;
     color: #fff;
     width: 100%!important;
-    /* overflow-x: hidden; */
+    overflow-x: hidden!important;
     scroll-behavior: smooth;
     background: rgb(0, 0, 0);
     /* overflow-x: hidden; */
@@ -315,7 +315,7 @@
   @media (max-width: 700px) {
   
      h1 {
-      font-size: 2rem!important;
+      font-size: 4rem!important;
     }
   
     /* .countdown {
@@ -323,7 +323,7 @@
     } */
     .countdown span {
       
-      font-size: 1rem!important;
+      font-size: 1.5rem!important;
    
     }
 
@@ -332,7 +332,7 @@
    
     .countdown span {
       
-      font-size: 3rem;
+      font-size: 4rem;
    
     }
 
@@ -353,11 +353,11 @@
     h1 {
       display: none;
     }
- 
+    
   }
-  @media (max-height: 700px) {
+  /* @media (max-height: 700px) {
     .countdown div{
-      font-size: 5px!important;
+      font-size: 10px!important;
       padding: 10px!important;
     } .center {
       transform: translateY(10%)!important;
@@ -366,7 +366,7 @@
       padding-top: 10%!important;
     }
     h1 {
-      font-size: 1.3rem!important;
+      font-size: 1.6rem!important;
     }
     .p,.p-2 {
       font-size: 10px!important;
@@ -380,23 +380,54 @@
       padding-top: 10%!important;
     }
     
- }
+ } */
 
 .hover:hover,.hover:focus {
       padding-bottom: 10px!important;
 }
+@media (max-width: 370px) {
+  .dot {
+    width:330px!important;
+    }
+    .downn {
+     transform: translateY(95%)!important;
+   }
+    .center {
+      transform: translate(-7%,15%)!important;
+    }
+    h1 {
+      font-size: 1.2rem!important;
+    }
+  }
+@media (max-width: 430px) {
+  .dot {
+    width:330px!important;
+    }
+    .downn {
+     transform: translateY(83%)!important;
+   }
+    .center {
+      transform: translate(-5%,10%)!important;
+    }
+  }
   @media (max-width: 400px) {
+    .dot {
+      width:330px!important;
+      }
+      .downn {
+       transform: translateY(83%)!important;
+     }
     .countdown span {
-      font-size: 10px!important;
+      font-size: 1.2rem!important;
     }
     .p-2 {
-      font-size: 8px!important;
+      font-size: 10px!important;
     }
     .s-img {
       width: 5rem!important;
     }
     .countdown div{
-      font-size: 5px!important;
+      font-size: 17px!important;
       padding: 10px!important;
     }
     .moucks {
@@ -404,22 +435,22 @@
     }
    
     h1 {
-      font-size: 1.3rem!important;
+      font-size: 1.4rem!important;
     }
     .p {
-      font-size: 10px!important;
+      font-size: 15px!important;
     }
   }
   @media (max-width: 670px) {
     .countdown span {
-      font-size: 2.6rem;
+      font-size: 2.8rem;
     }.countdown {
       padding-top: 0%!important;
     }
   }
   @media (max-width: 768px) {
     .countdown span {
-      font-size: 2rem;
+      font-size: 3rem;
     }
     .pxy {
    font-size: 10px!important;
@@ -456,13 +487,13 @@
       }
       @media (max-width: 680px) {
         h1 {
-          font-size: 1.2rem!important;
+          font-size: 3rem!important;
         }
         .p {
-          font-size: 12px!important;
+          font-size: 20px!important;
         }
         .downn {
-          transform: translateY(-10%);
+          transform: translateY(15%);
         }
         
          }
@@ -473,7 +504,7 @@
           }
           .dot {
            
-            width: 300px;
+            width: 500px;
             }
             .sas {
             width: 5rem;
@@ -497,6 +528,31 @@
           }
         
          }
+         @media (max-width: 650px) {
+          
+           .dot {
+            width: 500px;
+            }
+          
+           }
+           @media (max-width: 585px) {
+          
+            .dot {
+             width: 500px;
+             }
+             .downn {
+              transform: translateY(35%);
+            }
+            @media (max-width: 540px) {
+          
+              .dot {
+               width:450px;
+               }
+               .downn {
+                transform: translateY(38%);
+              }
+           
+            }
   
 
  /* mouck up */
@@ -506,7 +562,7 @@
      .mu-1 {
       top: 10%;
       right: 8%;
-     }
+     } 
      .sm-s-img {
       width: 25rem!important;
      }
@@ -546,8 +602,11 @@
         .mu-1-con {
          top: 10%;
          right: 2%;
-         display: none;
+         display: none!important;
 
+        }
+        .show {
+          display: none!important;
         }
        
           html,
@@ -597,6 +656,13 @@
            .countdown {
             padding-top: 17%!important;
            }
+           
+         }
+         @media (min-width:1000px) {
+     
+        .d-n {
+          display: none;
+        }
          }
         
          
@@ -643,7 +709,7 @@
         
         
         /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
+        @media (max-width: 300px) {
           .text {font-size: 11px}
           .downn {
             transform: translateY(50%);
@@ -656,4 +722,4 @@
               width:5rem!important;
             }
            
-        }
+          }}
